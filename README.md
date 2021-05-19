@@ -1,16 +1,16 @@
-###API doc
+# API doc
 
 ##Create short url:
-#POST http://0.0.0.0:8000/api/short/
+### POST http://0.0.0.0:8000/api/short/
 {
     "url":"your link"
 }
-##Create short url:
-#POST http://0.0.0.0:8000/api/delete/
+## Create short url:
+### POST http://0.0.0.0:8000/api/delete/
 {
   "initial":"your original link"
 }
-# OR
+### OR
 {
   "final":"short link without 'http://' "
 }
